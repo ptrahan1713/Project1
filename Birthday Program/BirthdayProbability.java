@@ -132,37 +132,6 @@ public class BirthdayProbability
         return temp;
     }
     
-    /**
-     * Asks the user how many runs they want to do.
-     * 
-     * @return the int value of the amount of loops.
-     */
-    public int askRun()
-    {
-        //create the scanner object
-        scnr = new Scanner(System.in);
-        
-        //asks the user the question
-        System.out.print("\nHow many runs do you want to have: ");
-        
-        //returns the input that the user inputted
-        return scnr.nextInt();
-    }
-    
-    /**
-     * Asks the user what do they want the size to be.
-     * 
-     * @return the int value of the size. 
-     */
-    public int askGroupSize()
-    {
-        //asks the user the question
-        System.out.print("\nWhat do you want the size of the group to be: ");
-        
-        //returns the input that the user inputted
-        return scnr.nextInt();
-    }
-    
     public void printResults()
     {
         System.out.println("\nFrom completing " + loop +" loops of program");
